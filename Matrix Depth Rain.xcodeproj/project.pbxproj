@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0EFF64291E0525CF00BF4746 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF64281E0525CF00BF4746 /* main.cpp */; };
+		0EFF64331E05266A00BF4746 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF64321E05266A00BF4746 /* libGLEW.2.0.0.dylib */; };
+		0EFF645B1E052F6100BF4746 /* text2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF644F1E052F6100BF4746 /* text2D.cpp */; };
+		0EFF645C1E052F6100BF4746 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF64501E052F6100BF4746 /* texture.cpp */; };
+		0EFF645F1E052F6100BF4746 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF64551E052F6100BF4746 /* shader.cpp */; };
+		0EFF64631E0531DB00BF4746 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF64301E05264300BF4746 /* libglfw.3.2.dylib */; };
+		0EFF64651E05333700BF4746 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF64641E05333700BF4746 /* OpenGL.framework */; };
+		0EFF64671E05334100BF4746 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF64661E05334100BF4746 /* IOKit.framework */; };
+		0EFF64691E05334C00BF4746 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF64681E05334C00BF4746 /* CoreVideo.framework */; };
+		0EFF646B1E05335100BF4746 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF646A1E05335100BF4746 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,21 @@
 /* Begin PBXFileReference section */
 		0EFF64251E0525CF00BF4746 /* Matrix Depth Rain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Matrix Depth Rain"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFF64281E0525CF00BF4746 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0EFF64301E05264300BF4746 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		0EFF64321E05266A00BF4746 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = ../../../../../../usr/local/Cellar/glew/2.0.0/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
+		0EFF644F1E052F6100BF4746 /* text2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text2D.cpp; sourceTree = "<group>"; };
+		0EFF64501E052F6100BF4746 /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture.cpp; sourceTree = "<group>"; };
+		0EFF64551E052F6100BF4746 /* shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shader.cpp; sourceTree = "<group>"; };
+		0EFF64561E052F6100BF4746 /* shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = shader.hpp; sourceTree = "<group>"; };
+		0EFF64571E052F6100BF4746 /* text2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = text2D.hpp; sourceTree = "<group>"; };
+		0EFF64581E052F6100BF4746 /* texture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = texture.hpp; sourceTree = "<group>"; };
+		0EFF64641E05333700BF4746 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0EFF64661E05334100BF4746 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		0EFF64681E05334C00BF4746 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0EFF646A1E05335100BF4746 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0EFF64711E05346100BF4746 /* TextVertexShader.fragmentshader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextVertexShader.fragmentshader; sourceTree = "<group>"; };
+		0EFF64721E05346100BF4746 /* TextVertexShader.vertexshader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextVertexShader.vertexshader; sourceTree = "<group>"; };
+		0EFF64761E05402500BF4746 /* Holstein.DDS */ = {isa = PBXFileReference; lastKnownFileType = file; path = Holstein.DDS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +56,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFF646B1E05335100BF4746 /* Cocoa.framework in Frameworks */,
+				0EFF64691E05334C00BF4746 /* CoreVideo.framework in Frameworks */,
+				0EFF64671E05334100BF4746 /* IOKit.framework in Frameworks */,
+				0EFF64651E05333700BF4746 /* OpenGL.framework in Frameworks */,
+				0EFF64631E0531DB00BF4746 /* libglfw.3.2.dylib in Frameworks */,
+				0EFF64331E05266A00BF4746 /* libGLEW.2.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +73,7 @@
 			children = (
 				0EFF64271E0525CF00BF4746 /* Matrix Depth Rain */,
 				0EFF64261E0525CF00BF4746 /* Products */,
+				0EFF642F1E05264300BF4746 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +88,55 @@
 		0EFF64271E0525CF00BF4746 /* Matrix Depth Rain */ = {
 			isa = PBXGroup;
 			children = (
+				0EFF646E1E05345900BF4746 /* shaders */,
+				0EFF646D1E05345500BF4746 /* resources */,
+				0EFF644E1E052F4800BF4746 /* common */,
 				0EFF64281E0525CF00BF4746 /* main.cpp */,
 			);
 			path = "Matrix Depth Rain";
+			sourceTree = "<group>";
+		};
+		0EFF642F1E05264300BF4746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF646A1E05335100BF4746 /* Cocoa.framework */,
+				0EFF64681E05334C00BF4746 /* CoreVideo.framework */,
+				0EFF64661E05334100BF4746 /* IOKit.framework */,
+				0EFF64641E05333700BF4746 /* OpenGL.framework */,
+				0EFF64321E05266A00BF4746 /* libGLEW.2.0.0.dylib */,
+				0EFF64301E05264300BF4746 /* libglfw.3.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EFF644E1E052F4800BF4746 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF64571E052F6100BF4746 /* text2D.hpp */,
+				0EFF644F1E052F6100BF4746 /* text2D.cpp */,
+				0EFF64581E052F6100BF4746 /* texture.hpp */,
+				0EFF64501E052F6100BF4746 /* texture.cpp */,
+				0EFF64561E052F6100BF4746 /* shader.hpp */,
+				0EFF64551E052F6100BF4746 /* shader.cpp */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		0EFF646D1E05345500BF4746 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF64761E05402500BF4746 /* Holstein.DDS */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		0EFF646E1E05345900BF4746 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF64711E05346100BF4746 /* TextVertexShader.fragmentshader */,
+				0EFF64721E05346100BF4746 /* TextVertexShader.vertexshader */,
+			);
+			name = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +196,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFF645F1E052F6100BF4746 /* shader.cpp in Sources */,
 				0EFF64291E0525CF00BF4746 /* main.cpp in Sources */,
+				0EFF645C1E052F6100BF4746 /* texture.cpp in Sources */,
+				0EFF645B1E052F6100BF4746 /* text2D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +296,19 @@
 		0EFF642D1E0525CF00BF4746 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -223,6 +316,18 @@
 		0EFF642E1E0525CF00BF4746 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -246,6 +351,7 @@
 				0EFF642E1E0525CF00BF4746 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
