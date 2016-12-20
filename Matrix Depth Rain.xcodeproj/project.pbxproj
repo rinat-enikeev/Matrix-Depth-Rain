@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0EA482FD1E08115000573090 /* matrix.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = matrix.bmp; sourceTree = "<group>"; };
 		0EFF64251E0525CF00BF4746 /* Matrix Depth Rain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Matrix Depth Rain"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFF64281E0525CF00BF4746 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0EFF64301E05264300BF4746 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		0EFF646D1E05345500BF4746 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				0EA482FD1E08115000573090 /* matrix.bmp */,
 				0EFF64761E05402500BF4746 /* Holstein.DDS */,
 			);
 			name = resources;

@@ -118,7 +118,7 @@ int main(int argc, const char * argv[]) {
     glBindVertexArray(VertexArrayID);
  
     // Initialize our little text library with the matrix font
-    initText2D( "Holstein.DDS" );
+    initText2D( "matrix.bmp" );
     
     do {
         // Clear the screen
